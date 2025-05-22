@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Turquoise-themed application theme -->
+    <style name="Theme.MyRecipe" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color: Turquoise -->
+        <item name="colorPrimary">#1ABC9C</item>
+        <item name="colorPrimaryVariant">#16A085</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+
+        <!-- Secondary accent: Light turquoise -->
+        <item name="colorSecondary">#48C9B0</item>
+        <item name="colorSecondaryVariant">#76D7C4</item>
+        <item name="colorOnSecondary">#000000</item>
+
+        <!-- Background and surface: Pale teal -->
+        <item name="android:colorBackground">#E0F7FA</item>
+        <item name="colorSurface">#E0F7FA</item>
+        <item name="colorOnBackground">#000000</item>
+        <item name="colorOnSurface">#000000</item>
+
+        <!-- Error colors unchanged -->
+        <item name="colorError">#B00020</item>
+        <item name="colorOnError">#FFFFFF</item>
+
+        <!-- Use turquoise gradient as ambient window background -->
+        <item name="android:windowBackground">@drawable/bg_gradient</item>
+
+        <!-- MaterialComponents style overrides -->
+        <item name="materialButtonStyle">@style/Widget.MaterialComponents.Button</item>
+        <item name="materialCardViewStyle">@style/Widget.MaterialComponents.CardView</item>
+    </style>
+</resources>
